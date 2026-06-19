@@ -1,4 +1,3 @@
-# pasta-gabrielly
 # 🌍 Clima Urbano vs. Clima Rural (Y2K Weather Station) 💿👾
 
 Este repositório contém uma aplicação web interativa baseada no impacto do uso do solo nos microclimas locais (Urbano vs. Rural). O projeto conta com uma interface inspirada na estética futurista dos anos 2000 (Y2K), trazendo dados em tempo real e efeitos sazonais dinâmicos.
