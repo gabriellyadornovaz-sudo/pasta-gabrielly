@@ -1,1 +1,59 @@
+---
 
+### 2. 🌐 `index.html`
+A estrutura estrutural do site. Note que as tags de script e estilo estão apontando perfeitamente para os arquivos externos.
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise Climática: Urbano vs Rural</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>Clima Urbano vs. Clima Rural</h1>
+        <p>Entendendo o impacto da ação humana e do uso do solo no microclima local</p>
+    </header>
+
+    <main>
+        <section class="introducao">
+            <h2>🌍 Visão Geral</h2>
+            <p>O clima de uma região vai muito além dos fatores geográficos globais. A forma como o ser humano modifica o espaço geográfico cria dinâmicas climáticas locais muito distintas. Enquanto as cidades alteram o balanço de energia natural, as áreas rurais preservam características que ajudam a regular a temperatura e a umidade do ecossistema.</p>
+        </section>
+
+        <div class="grid-climas">
+            <section class="card card-urbano">
+                <h2>🏢 Clima Urbano</h2>
+                <p>As cidades funcionam como modificadores térmicos intensos. A substituição da vegetação natural por superfícies artificiais altera drasticamente o ambiente de quem vive nos grandes centros.</p>
+                <ul>
+                    <li><strong>Ilhas de Calor:</strong> O asfalto e o concreto absorvem calor durante o dia e o liberam à noite, mantendo a cidade muito mais quente.</li>
+                    <li><strong>Umidade Reduzida:</strong> A pavimentação impede a infiltração de água. Sem plantas, o ar urbano torna-se mais seco.</li>
+                    <li><strong>Barreiras de Vento:</strong> Arranha-céus bloqueiam as correntes ou geram canais de ventos turbulentos.</li>
+                    <li><strong>Poluição Atmosférica:</strong> Gases estufa criam uma cúpula térmica que retém o calor na superfície.</li>
+                </ul>
+            </section>
+
+            <section class="card card-rural">
+                <h2>🌳 Clima Rural</h2>
+                <p>As áreas rurais mantêm o solo permeável e coberto por vegetação nativa ou plantações. Essa cobertura natural responde de forma equilibrada à radiação solar.</p>
+                <ul>
+                    <li><strong>Temperaturas Amenas:</strong> A vegetação não retém calor como o concreto, permitindo resfriamento noturno rápido.</li>
+                    <li><strong>Alta Umidade Relativa:</strong> Árvores e corpos d'água garantem liberação constante de vapor pela evapotranspiração.</li>
+                    <li><strong>Ventos Constantes:</strong> A ausência de barreiras arquitetônicas gigantes deixa as brisas fluírem livremente.</li>
+                    <li><strong>Ar Mais Puro:</strong> Distante de grandes tráfegos automotivos, os índices de material particulado são mínimos.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Projeto de Análise Climática desenvolvido para o GitHub.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
